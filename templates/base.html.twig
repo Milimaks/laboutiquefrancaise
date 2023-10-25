@@ -45,7 +45,7 @@
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Nos produits
+							<a class="nav-link" href="{{path('app_products')}}">Nos produits
 
 							</a>
 						</li>
@@ -135,7 +135,7 @@
 				{% endif %}
 
 				<!-- Marketing messaging and featurettes
-																																																																																																																																				    ================================================== -->
+																																																																																																																																								    ================================================== -->
 				<!-- Wrap the rest of the page in another container to center all the content. -->
 
 				<div class="container marketing {% if block('carousel') is not defined %} mt-5 {% endif %}"> {% block content %}{% endblock %}
